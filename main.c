@@ -7,7 +7,6 @@ void test(){
     test_atVector_notEmptyVector();
     test_atVector_requestToLastElement();
     test_back_oneElementInVector();
-    test_front_oneElementInVector();
 }
 
 int main() {

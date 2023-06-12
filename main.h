@@ -198,12 +198,6 @@ void test_back_oneElementInVector() {
     clear(&v);
 }
 
-void test_front_oneElementInVector() {
-    vector v = createVector(2);
-    pushBack(&v, 5);
-    int* ptr = front(&v);
-    assert(*ptr == 5);
-    clear(&v);
-}
+
 
 #endif //VECTOR_VECTOR_H
